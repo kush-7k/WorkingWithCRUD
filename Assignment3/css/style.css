@@ -1,0 +1,193 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html,body {
+	background-color: darkblue;
+	font-family: tahoma, sans-serif;
+	color: #E6EBEE;
+    background-image: url('../img/background.jpg');
+}
+
+#profilecard {
+	background-color: darkblue;
+	height: auto;
+	width: 350px;
+	margin: 10vh auto;
+	border-radius: 25px;
+	padding-bottom: 1px;
+	box-shadow: 2px 2px 5px black;
+}
+header{
+    height: 125px;
+    display: flex;
+    align-items: center;
+    background-color: #000;
+}
+.logo-container{
+    height: 110px;
+    flex-grow: 1;
+}
+.logo-container a img{
+    height: 100%;
+    width: auto;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+header nav ul li{
+    padding: 0px 15px;
+}
+header nav ul li a{
+    color: purple;
+}
+#b1{
+    margin-left: 17cm;
+    background-color: #0e0e0e;
+    color: #ffffff;
+}
+footer{
+    background-color: #0e0e0e;
+    padding: 5%;
+    text-align: center;
+}
+footer>h5{
+    font-size: 30px;
+    color: #ffffff;
+}
+.t1{
+    font-size: 3em;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+    align-items: center;
+}
+h1 {
+	color: white;
+	text-align: center;
+	width: 100%;
+	background-color: orange;
+	border-radius: 25px 25px 0 0;
+	color: darkblue;
+	padding: 30px 0;
+	font-weight: 800;
+	margin: 0;
+}
+
+.image-crop {
+	display: block;
+	position: relative;
+	background-color: #E6EBEE;
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	margin-top: 30px;
+	overflow: hidden;
+	border-radius: 50%;
+	box-shadow: 1px 1px 5px yellow;
+}
+
+#avatar {
+	display: inline;
+	height: 230px;
+	width: auto;
+	margin-left: -34px;
+}
+
+#aboutme {
+	display: block;
+	margin: 30px auto;
+	width: 280px;
+	height: auto;
+}
+.form-group{
+    background-color: aqua;
+    color: #000;
+}
+#aboutme p {
+	color: whitesmoke;
+	font-weight: lighter;
+	font-size: 15px;
+	text-align: justify;
+}
+#email {
+	display: block;
+	margin: 30px auto;
+	width: 280px;
+	height: auto;
+}
+
+#email p {
+	color: whitesmoke;
+	font-weight: lighter;
+	font-size: 15px;
+	text-align: justify;
+}
+
+#fly {
+	display: flex;
+	flex-direction: row;
+	height: auto;
+	width: 280px;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+	font-weight: 500;
+}
+
+.col {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: auto;
+}
+
+.fly1 {
+	font-size: 25px;
+	margin: 0;
+}
+
+.label {
+	margin: 0;
+}
+
+#buttons {
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-between;
+	width: 280px;
+}
+
+button {
+	display: block;
+	position: relative;
+	padding: 10px 0;
+	width: 130px;
+	margin: 30px 0;
+	border-radius: 25px;
+	border: none;
+	font-size: 20px;
+	letter-spacing: 0.2px;
+	font-weight: 500;
+	background-color: orange;
+	color: #E6EBEE;
+}
+
+button:focus {
+	display: none;
+}
+
+button:hover {
+	transform: scale(1.03);
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+}
+
+#msg{
+	background-color: #E6EBEE;
+	color: #393B45;
+}
